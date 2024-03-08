@@ -1,0 +1,50 @@
+.dat{
+  display: none;
+
+}
+#sign{
+  position: absolute;
+  top: 0%;
+  height: 800px;
+  margin-left: 550px;
+  margin-top: 80px;
+  background-color: white;
+  width: 380px;
+  height: 500px;
+}
+.ball{
+  border: none;
+  width: 1000px;
+  border-width: 500px;
+  justify-content: center;
+}
+.girl{
+  position: absolute;
+  bottom: 150px;
+  left: 28%;
+  color: white;
+  z-index: 100;
+  text-align: center;
+}
+.girl h1{
+  font-size: 60px;
+}
+#free{
+  margin-right: 65px;
+}
+a{
+  text-decoration: none;
+}
+.sa{
+  text-align: center;
+}
+@media screen and (max-width:478px) {
+  .dat{
+    display: block;
+  }
+  #sign{
+    margin-left: 0;
+    width: 100%;
+  }
+  
+}

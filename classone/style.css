@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.photo{
+    position: absolute;
+    right: 10px;
+    width: 85px;
+    height: 250px;
+}
+#color{
+    background-color: #ece8d9;
+}
+.red{
+    background-color: #f3b1cd;
+    text-align: center;
+    color: black;
+    height: 80px;
+    padding-top: 20px;
+}
+
+}

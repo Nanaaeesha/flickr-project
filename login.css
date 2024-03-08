@@ -1,0 +1,84 @@
+#first{
+    margin-left: 10px;
+}
+#firsts{
+    position: fixed;
+    z-index: 2;
+}
+#makings{
+    display: none;
+}
+.but{
+    width: 350px;
+}
+.bye{
+    text-align: center;
+    font-size: small;
+}
+
+.siggn{
+    position: absolute;
+    top: 0%;
+    height: 280px;
+    margin-left: 520px;
+    background-color: white;
+    width: 380px;
+    transform: translateY(200px);    
+}
+
+.imgd{
+    position: relative;
+    height: 100vh;
+}
+
+.magg{
+    text-align: center;
+    transform: translateY(10px);
+}
+a{
+    text-decoration: none;
+}
+.colo{
+    color: white;
+}
+.henry{
+    
+    color: whitesmoke;
+    margin-left: 100px;
+}
+@media screen and (max-width: 478px){
+    #first{
+        transform: translate(-100px);
+    }
+    #makings{
+        display: block;
+        transform: translatey(70px);
+        transform: translatex(190px);
+        height: 30px;
+
+    }
+    .imgd{
+        display: none;
+    }
+    .siggn{
+        margin-left:0;
+        width: 100%;
+        transform: translateY(0px);    
+        
+    }
+    .makings{
+        display: block;
+    }
+    .magg{
+        transform: translateY(0);
+    }  
+    .colo{
+        color: black;
+        transform: translateY(540px);
+
+    }
+    .henry{
+        display: none;    
+    }
+    
+}
